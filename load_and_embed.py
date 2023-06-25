@@ -7,9 +7,9 @@ from langchain.text_splitter import CharacterTextSplitter
 
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
-PINECONE_API_KEY = '17c1b962-d9af-4af1-8f77-a6d87fe2fe01'
-PINECONE_ENV = 'asia-southeast1-gcp'
+os.environ['OPENAI_API_KEY'] = ''
+PINECONE_API_KEY = ''
+PINECONE_ENV = ''
 
 print("Loading in documents...")
 
