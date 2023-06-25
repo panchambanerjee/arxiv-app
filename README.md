@@ -3,7 +3,7 @@ Get your own personal research helper chatbot
 
 ## Inspiration
 
-Back when I did my PhD, I always found looking for new directions of research to be one of the more challenging aspects. In addition, once most of the paper was done, it took so much time to find the relevant papers to cite. It would have been extremely helpful to have a tool that I can query to get me the latest papers, and then have a chatbot interface that I can ask intelligent questions to regarding the areas of research, and get an idea of future directions of research. This also applies to writing review articles about a topic. 
+Back when I did my PhD, looking for new directions of research always seemed to be one of the more challenging aspects. In addition, once most of the paper was done, it took so much time to find the relevant papers to cite. It would have been extremely helpful to have a tool that I can query to get me the latest papers, and then have a chatbot interface that I can ask intelligent questions to regarding the areas of research, and get an idea of future directions of research. This also applies to writing review articles about a topic. 
 
 ## What it does
 
