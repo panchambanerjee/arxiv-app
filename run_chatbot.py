@@ -13,9 +13,9 @@ from langchain.chat_models import ChatOpenAI
 
 from PIL import Image
 
-# os.environ['OPENAI_API_KEY'] = ''
-# PINECONE_API_KEY = ''
-# PINECONE_ENV = ''
+os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
+PINECONE_ENV = st.secrets["PINECONE_ENV"]
 
 embeddings = OpenAIEmbeddings()
 
