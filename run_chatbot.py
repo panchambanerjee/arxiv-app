@@ -13,11 +13,12 @@ from langchain.chat_models import ChatOpenAI
 
 from PIL import Image
 
-os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
+#os.environ['OPENAI_API_KEY'] 
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 PINECONE_ENV = st.secrets["PINECONE_ENV"]
 
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
 
 # initialize pinecone
 pinecone.init(
