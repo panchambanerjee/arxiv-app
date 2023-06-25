@@ -1,5 +1,6 @@
-# arxiv-app
-Get your own personal research helper chatbot
+# arxiv-app -> Built in a weekend for a Pinecone hackathon
+
+## **Get your own personal research helper chatbot**
 
 ## Inspiration
 
@@ -37,3 +38,11 @@ Built via::
 5. Give the LLM access to other tools such as Wikipedia (might help with broader context) and Google Search
 6. Try and wrap the whole pipeline in a Streamlit webapp
 7. Deploy the app via Heroku
+
+## Steps to Run
+
+* In the "load_and_embed.py" and "run_chatbot.py" scripts enter your personal OpenAI Key, Pinecone Key, Pinecone Env
+* In the run_all.sh script enter the number of files you wish to download, and which keywords you to want to query the files on
+* sh run_all.sh -> This will trigger the pipeline, download the files, create vector dB and start the chatbot
+
+  
