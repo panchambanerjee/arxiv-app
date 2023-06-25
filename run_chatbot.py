@@ -53,11 +53,11 @@ st.markdown(app_title, unsafe_allow_html=True)
 
 #opening the image
 
-with st.sidebar.container():
-    image = Image.open("arxiv.jpeg")
-    # image = image.resize((100, 100))
-    st.image(image, use_column_width=True)
-    # st.sidebar.image(image)
+# with st.sidebar.container():
+#     image = Image.open("arxiv.jpeg")
+#     # image = image.resize((100, 100))
+#     st.image(image, use_column_width=True)
+#     # st.sidebar.image(image)
 
 
 if "generated" not in st.session_state:
