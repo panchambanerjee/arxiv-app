@@ -1,4 +1,6 @@
-# arxiv-app -> Built in a weekend for a Pinecone hackathon
+# arxiv-app 
+
+## -> Built in a weekend for a Pinecone hackathon
 
 ## **Get your own personal research helper chatbot**
 
