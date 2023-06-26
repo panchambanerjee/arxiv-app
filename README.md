@@ -42,6 +42,7 @@ Built via::
 5. Implement Conversational Memory and Agents when querying the Chatbot
 6. Give the LLM access to other tools such as Wikipedia (might help with broader context) and Google Search
 7. Try and wrap the whole pipeline in a Streamlit webapp
+8. Note: There is already a script on the git repo to only get the abstracts from a paper (this can be used to get relevant papers for a literature review) but it needs to be developed and integrated into the pipeline
 
 
 ## Steps to Run
