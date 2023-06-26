@@ -33,15 +33,16 @@ Built via::
 7. Some simple CSS formatting for the Streamlit bot appearance 
 
 
-## What's next for arxiv_app
+## What's next for arxiv-app
 
 1. Make the pdf downloader part more intuitive, and add more options for keywords, time of query etc.
-2. Address the API call timeout issues for the arXiv API
-3. Try other LLMs (HuggingFace specifically)
-4. Implement Conversational Memory and Agents when querying the Chatbot
-5. Give the LLM access to other tools such as Wikipedia (might help with broader context) and Google Search
-6. Try and wrap the whole pipeline in a Streamlit webapp
-7. Deploy the app via Heroku
+2. Work with a larger corpus of papers
+3. Address the API call timeout issues for the arXiv API
+4. Try other LLMs (HuggingFace specifically)
+5. Implement Conversational Memory and Agents when querying the Chatbot
+6. Give the LLM access to other tools such as Wikipedia (might help with broader context) and Google Search
+7. Try and wrap the whole pipeline in a Streamlit webapp
+
 
 ## Steps to Run
 
